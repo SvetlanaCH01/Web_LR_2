@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/Icon1.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet">
+    <title>MedApp</title>
+  </head>
+  <body class="body-rep">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+          <div class="container">
+                <a class="navbar-brand" href="#">MedApp</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="reception.html" href="#">Записи</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="diagnosis.html" href="#">Диагнозы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="patiens.html" href="#">Пациенты</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="btn btn-outline-primary" href="authorization.html" >Выйти</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </header>
+  <div aria-label="add_rep">
+    <ol class="add_rep">
+        
+    </li>
+    </ol>
+  </div>
+    
+
+    <form  class="container-rep overflow-hidden">
+          <h4 class="font-h4 font-weight-bold">Новый прием</h4>
+          <div class="mb-3">
+            <div><label for="Select" class="form-label">Цель визита</label></div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Консультация</option>
+                <option value="1">Обследование</option>
+                <option value="2">Смотр анализов</option>
+                <option value="3">Повторная консультация</option>
+              </select>
+          </div>
+          <div class="mb-3">
+            <div><label for="Select" class="form-label">Пациент</label></div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Иванов Иван Иванович</option>
+                <option value="1">Суперфин Татьяна Алексеевна</option>
+                <option value="2">Шолохов Дмитрий Николаевич</option>
+              </select>
+          </div>
+          <div class="mb-3">
+            <div><label for="Select" class="form-label">Диагноз</label></div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Бронхиальная астма</option>
+                <option value="1">Бронхит</option>
+                <option value="2">Пневмония</option>
+                <option value="3">Трахеит</option>
+              </select>
+          </div>
+          <div class="mb-3">
+            <div><label for="Select" class="form-label">Врач</label></div>
+            <select class="form-select " aria-label="Default select example">
+                <option selected>Романов Петр Алексеевич</option>
+                <option value="1">Исламова Рита Ильдаровна</option>
+              </select>
+          </div>
+          <div class="mb-3">
+            <label for="Select" class="form-label">Рекомендации</label>
+            
+          </div>
+          <div class="mb-3">
+          <input  class="form-control-rec">
+        </div>
+          <button type="submit" class="btn btn-primary" href="new_reception.html"><a >Записать</a></button>
+      </form>
+
+
+      <footer class="footer">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col navbar font-weight-bold">
+                MedApp
+              </div>
+              <div class="col font-weight-bold navbar">
+                &copy;  2023 Korovin&Chiglintseva
+              </div>
+              <div class="col navbar">
+                +7 (495) 118-33-89  
+              </div>
+              <div class="col navbar">
+                support@medapp.ru
+              </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/Icon1.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet">
+    <title>MedApp</title>
+  </head>
+  <body class="body-patient">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+          <div class="container">
+                <a class="navbar-brand" href="#">MedApp</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="reception.html" href="#">Записи</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="diagnosis.html" href="#">Диагнозы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="patiens.html" href="#">Пациенты</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="btn btn-outline-primary" href="authorization.html" >Выйти</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+  </header>
+    
+    <div aria-label="add_rep">
+        <ol class="add_rep">
+            <a  href="add_patient.html" >Добавить пациента</a>
+        </li>
+        </ol>
+      </div>
+   
+    
+      <form class="search-item">
+        <div class="mb-3">
+          <h4 class="search">Поиск</h2>
+          <input class="form-control-search">
+          <div class="button-search">
+          <button type="button" class="btn btn-primary">Найти</button>
+        </div>
+        </div>
+      </form>
+
+      <table class="table  table-striped">
+        <thead class="table-zag">
+          <tr>
+            <th scope="col">№</th>
+            <th scope="col">ID</th>
+            <th scope="col">ФИО пациента</th>
+            <th scope="col">Телефон</th>
+            <th scope="col">Адрес</th>
+            <th scope="col">Изменить</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>1</td>
+            <td>Иванов Иван Иванович</td>
+            <td>89872533364</td>
+            <td>ул. Труда, 7</td>
+            <td><a  href="change_patient.html" >Изменить</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>2</td>
+            <td>Шолохова Тамара Васильевна</td>
+            <td>89872536475</td>
+            <td>ул. Мира, 91</td>
+            <td><a  href="change_patient.html" >Изменить</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>3</td>
+            <td>Суперфин Татьяна Петровна</td>
+            <td>89176758493</td>
+            <td>ул. Ленина, 9</td>
+            <td><a  href="change_patient.html" >Изменить</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link disabled ">Предыдущая</a>
+          </li>
+          <li class="page-item  active"><a class="page-link" aria-current="page">1</a></li>
+          <li class="page-item" href="#" >
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link " href="#">Следующая</a>
+          </li>
+        </ul>
+      </nav>
+
+      <footer class="footer">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col navbar font-weight-bold">
+                MedApp
+              </div>
+              <div class="col font-weight-bold navbar">
+                &copy;  2023 Korovin&Chiglintseva
+              </div>
+              <div class="col navbar">
+                +7 (495) 118-33-89  
+              </div>
+              <div class="col navbar">
+                support@medapp.ru
+              </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/

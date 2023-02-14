@@ -1,0 +1,213 @@
+.header{
+    line-height: 29px;
+    background-color: #41B0D2;
+}
+.navbar-brand{
+    width: 150px;
+    font-size: 26px;
+    color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 24px;
+    color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+.nav-item{
+    width: 150px;
+}
+.btn-logout{
+    font-size: 24px;
+    color:#B5E2F0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+.rectangle{
+    background-position-x: absolute;
+    background-position-y: absolute;
+    width: 743px;
+    height: 190px;
+    left: 348px;
+    top: 417px;
+    margin-top: 300px ;
+    margin-bottom: 330px ;
+    margin-left: 150px;
+    background: #EFF5FA;
+    border-radius: 20px;
+}
+.welcome-text{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 70px ;
+    margin-bottom: 50px ;
+    margin-left: 80px;
+    color: rgba(39, 164, 204, 0.88);
+}
+.footer{
+    position:-ms-page;
+    line-height: 29px;
+    background-color: #F1F7FB;
+    background-position-y: bottom;
+}
+.col{
+    height: 90px;
+    width: 400px;
+    font-size: 20px;
+    color:#3FAFD2;
+    font-family: 'Inter';
+    font-style: normal;
+
+}
+.body-welcome{
+   background: linear-gradient(0deg, rgba(39, 75, 204, 0.3577) 5.46%, rgba(67, 95, 196, 0.188727) 30.92%, rgba(152, 167, 219, 0.0981984) 70.15%, rgba(255, 255, 255, 0) 96.62%);
+    background-position: cover;
+}
+div.background {
+    position: fixed;
+    top: -50%;
+    left: -51%;
+    width: 200%;
+    height: 200%;
+  }
+  
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 37%;
+    min-height: 37%;
+    opacity: 20%;
+  }
+  .add_rep{
+    height: 100px;
+    left: 50px;
+    height: 90px;
+    width: 400px;
+    margin-left:8%;
+    font-size: 20px;
+    color:#40B0D2;
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: none;
+    margin-top: 1%;
+  }
+.search-item{
+    height: 250px;
+    width: -ms-page;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 20px;
+    color:#40B0D2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+.search{
+    height: 40px;
+}
+.form-control-search{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1145px;
+    height: 50px;
+    top: 220px;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    border-radius: 10px;
+}
+.button-search{
+    margin-top: 80px;
+    height: 40px;
+}
+.table{
+    background-color: #ffffff;
+    color:#2784A1;
+    margin-right: 30%;
+    margin-left: 15%;
+    width: 1145px;
+}
+.table-zag{
+    background-color:#B2D5E1;
+}
+.pagination{
+    color:#2784A1;
+    margin-right: 30%;
+    margin-left: 15%;
+    width: 1145px;
+    margin-top: 10%;
+}
+.body-rep{
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0.2597) 4%, rgba(144, 215, 238, 0.4802) 95.79%);
+}
+.body-diag{
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0.2597) 4%, rgba(114, 142, 215, 0.3626) 95.79%);
+}
+.body-patient{
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0.2597) 4%, rgba(102, 210, 210, 0.3871) 95.79%);
+}
+.container-rep{
+    height: 700px;
+    width: -ms-page;
+    margin-right: 20%;
+    margin-left: 30%;
+    font-size: 20px;
+    color:#2784A1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+.form-select{
+    width: 600px;
+    font-size: 20px;
+    color:#2784A1;
+    height: 35px;
+}
+.form-control-rec{
+    width: 600px;
+    font-size: 20px;
+    color:#2784A1;
+}
+.font-h4{
+    margin-right: 20%;
+    margin-left: 25%;
+    background-position-x: center;
+}
+.container-pat{
+    height: 750px;
+    width: -ms-page;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 3%;
+    font-size: 20px;
+    color:#2784A1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
+.body-auth{
+    background: linear-gradient(180deg, rgba(39, 164, 204, 0.196) 11.98%, rgba(39, 75, 204, 0.3724) 100%);
+    height: -ms-page;
+}
+.authorization-page{
+    height: 780px;
+    width: 600px;
+    margin-right: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 26px;
+    color:#2784A1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+}
